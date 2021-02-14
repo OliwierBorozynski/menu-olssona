@@ -25,3 +25,5 @@ echo "2) No i dont"
         exit
         x=1
         ;;
+esac
+done
