@@ -35,7 +35,7 @@ echo "4) check your available extensions     8) play pacman"
         ;;
 
                 2)
-        apt-get upgarde
+        apt-get upgrade
         x=1
         ;;
 
