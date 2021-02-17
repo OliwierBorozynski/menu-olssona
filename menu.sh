@@ -21,7 +21,7 @@ echo "Remember to run this script as root"
 echo "                                  "
 
 echo "1) Update                              5) ip"
-echo "2) Upgarde                             6) dancing parrot"
+echo "2) Upgrade                             6) dancing parrot"
 echo "3) restart NetworkManager              7) network tools (more options)"
 echo "4) check your available extensions     8) play pacman"
 
