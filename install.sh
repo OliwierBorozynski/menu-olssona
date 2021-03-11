@@ -3,10 +3,10 @@ x=0
 while [ $x = 0 ]
 do
 
-# jakis wstep i latwy wybor
+# jakis wstep
 echo "Hello do you want to install a script?"
 echo "1) Yes i do"
-echo "2) No i dont"
+echo "2) NO"
 
 # przypadek numer 1
         read answer
@@ -15,9 +15,13 @@ echo "2) No i dont"
         1)
         echo "Okay i will install stuff that you will need to use this menu"
         sleep 5
-        apt install pacman
-        echo "Done :) now you can run menu.sh"
-        sleep 7
+        apt-get install ncdu
+        apt-get install hollywood
+        apt-get install htop
+        apt-get install pacman
+        apt-get install neofetch
+        echo "Done :)"
+        sleep 4
         x=1
         ;;
 
@@ -25,5 +29,6 @@ echo "2) No i dont"
         exit
         x=1
         ;;
+
 esac
 done
