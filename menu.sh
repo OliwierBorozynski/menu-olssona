@@ -20,10 +20,12 @@ echo "Remember to run this script as root"
 
 echo "                                  "
 
-echo "1) Update                              5) ip"
-echo "2) Upgrade                             6) dancing parrot"
-echo "3) restart NetworkManager              7) network tools (more options)"
-echo "4) check your available extensions     8) play pacman"
+echo "1) Update                              7) network tools (more options)"
+echo "2) Upgarde                             8) play pacman"
+echo "3) restar NetworkManager               9) neofetch"
+echo "4) check your available extensions     10) htop"
+echo "5) ip                                  11) ncdu"
+echo "6) dancing parrot                      12) (Real hacking tool)"
 
 # glowny przypadek
         read answer
@@ -35,7 +37,7 @@ echo "4) check your available extensions     8) play pacman"
         ;;
 
                 2)
-        apt-get upgrade
+        apt-get upgarde
         x=1
         ;;
 
@@ -59,22 +61,44 @@ echo "4) check your available extensions     8) play pacman"
         x=1
         ;;
 
-        8)
+                8)
         clear
         pacman
         x=1
         ;;
 
+                9)
+        clear
+        neofetch
+        x=1
+        ;;
 
+                10)
+        clear
+        htop
+        x=1
+        ;;
+
+                11)
+        clear
+        ncdu
+        x=1
+        ;;
+
+                12)
+        clear
+        hollywood
+        x=1
+        ;;
 
         # network tools
                 7)
         echo "Choose tool you want to use"
         echo "1) wifite"
 
-        read answer2
+        read secondanswer
 
-        case "$answer2" in
+        case "$secondanswer" in
 
         1)
         wifite
