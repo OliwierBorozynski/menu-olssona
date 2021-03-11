@@ -28,8 +28,8 @@ echo "1=No 2=Yes"
         echo "Are you sure that you want to uninstall script?"
         echo "Yes/No"
 
-        read 1answer
-        case "$1answer" in
+        read endinganswer
+        case "$endinganswer" in
 
         No)
         clear
